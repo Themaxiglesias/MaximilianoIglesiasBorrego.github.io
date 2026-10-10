@@ -121,3 +121,42 @@
 #ge-aerospace .experience-photo-banner img{object-position:center center}
 #marathon .experience-photo-banner img{object-position:center center}
 #ford .experience-photo-banner img{object-position:center center}
+
+/* V6 — field roots + real prototype photographs */
+.prototype-spotlight{padding:110px 0 112px;border-top:1px solid #e4d8cf;background:#eee8e1;color:#26201b}
+.spotlight-head{display:grid;grid-template-columns:1.1fr .9fr;gap:65px;align-items:end;margin-bottom:36px}
+.spotlight-head h2,.roots-story h2{font:600 clamp(38px,4.7vw,65px)/1.08 'Space Grotesk',sans-serif;letter-spacing:-.055em;margin:0}
+.spotlight-head h2 span,.roots-story h2 span{color:#bf5b1d}
+.spotlight-head>p{font-size:15px;line-height:1.85;color:#75665a;max-width:430px}
+.spotlight-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;text-decoration:none;color:inherit}
+.spotlight-photo{position:relative;height:365px;overflow:hidden;background:#1b1917}
+.spotlight-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.spotlight-grid:hover .spotlight-photo img{transform:scale(1.035)}
+.spotlight-photo:after{content:"";position:absolute;inset:55% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.65))}
+.spotlight-photo span{position:absolute;left:22px;bottom:20px;z-index:1;color:#fff;font:700 11px 'Space Grotesk',sans-serif;letter-spacing:.13em}
+.spotlight-caption{grid-column:1/-1;display:flex;align-items:center;gap:30px;padding:12px 2px 0}
+.spotlight-kicker{font:800 10px 'Space Grotesk',sans-serif;letter-spacing:.12em;color:#ba591e;flex:0 0 180px}
+.spotlight-caption h3{font:600 clamp(22px,2.5vw,34px) 'Space Grotesk',sans-serif;letter-spacing:-.04em;margin:0;flex:1}
+.spotlight-caption p{max-width:280px;color:#6e5c51;font-size:13px;line-height:1.6;margin:0}
+.spotlight-caption strong{font-size:10px;color:#b35319;letter-spacing:.1em;white-space:nowrap}
+.roots-section{background:#faf6f1;color:#2b241e;padding:115px 0}
+.roots-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:75px;align-items:center}
+.roots-photos{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;align-items:end}
+.roots-photos figure{margin:0;min-width:0}
+.roots-photos img{width:100%;height:330px;object-fit:cover;display:block;filter:saturate(.9)}
+.roots-photo-small img{height:265px;object-position:center 38%}
+.roots-photos figcaption{font-size:9px;letter-spacing:.12em;color:#8e6b53;font-weight:700;margin-top:10px}
+.roots-story h2{margin:14px 0 27px}
+.roots-story p:not(.eyebrow){font-size:15px;line-height:1.88;color:#6b5c50;margin:0 0 17px}
+.roots-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:25px}
+.roots-tags span{background:#f7e6d8;color:#a4501c;padding:9px 12px;font-size:10px;font-weight:700;letter-spacing:.06em}
+.fixture-gallery{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:32px 0 0}
+.fixture-gallery figure{margin:0;overflow:hidden;border:1px solid #e5d7cc;background:white;border-radius:15px}
+.fixture-gallery img{width:100%;height:370px;object-fit:cover;display:block}
+.fixture-gallery figcaption{font-size:12px;color:#695b50;padding:15px 17px}
+.project-detail .fixture-note{font-size:12px;color:#886f5e;max-width:760px}
+@media(max-width:950px){.spotlight-caption{display:block}.spotlight-kicker{display:block;margin-bottom:9px}.spotlight-caption p{max-width:540px;margin:10px 0}.roots-grid{grid-template-columns:1fr;gap:45px}}
+@media(max-width:780px){.prototype-spotlight,.roots-section{padding:75px 0}.spotlight-head{grid-template-columns:1fr;gap:10px}.spotlight-photo{height:270px}.fixture-gallery img{height:270px}}
+@media(max-width:520px){.spotlight-grid,.fixture-gallery{grid-template-columns:1fr}.spotlight-photo{height:300px}.spotlight-caption{grid-column:1}.roots-photos img{height:250px}.roots-photo-small img{height:210px}.fixture-gallery img{height:330px}}
+
+.hero-visual{min-width:0}.hero-svg{display:block}

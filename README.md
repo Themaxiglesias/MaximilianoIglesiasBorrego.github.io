@@ -1,22 +1,17 @@
-# Max Iglesias — Engineering Portfolio (Version 2)
+# Max Iglesias · Portfolio V6
 
-Orange / black GitHub Pages portfolio with homepage, About Me page, and engineering case studies.
+Updated existing GitHub Pages portfolio. Includes all V5 content, 3D-print case study photography, ProntoFlooring hands-on roots, and the working LinkedIn, MSU email, and favicon.
 
-## Publish to your existing GitHub Pages site
+## Publish
 
-1. Open `Themaxiglesias/MaximilianoIglesiasBorrego.github.io` on GitHub.
-2. Select **Add file → Upload files**.
-3. Upload all files and the `assets` folder from this ZIP, maintaining its folder structure.
-4. Confirm overwriting `index.html`, `projects.html`, `styles.css`, `script.js`, and `README.md`; commit to `main`.
-5. Wait for Pages deployment, then refresh your site.
+1. Extract the ZIP and open the `max-portfolio-v6` folder.
+2. Upload `index.html`, `about.html`, `projects.html`, `styles.css`, `script.js`, `favicon.png`, plus the `assets` **folder with its structure preserved**, to the root of your GitHub repository.
+3. Commit to `main`, wait for GitHub Pages deployment, and hard-refresh.
+4. Verify the new prototype photos and About Me section display.
 
-**Do not upload only the ZIP.** Keep `assets` as a folder at repository root.
+## Publication checks
 
-## Before sharing publicly
-- Replace `YOUR_EMAIL@example.com` and any placeholder LinkedIn or résumé URLs.
-- Confirm permission to publish group photos.
-- Check team project descriptions and contributions for accuracy.
-- Do not upload proprietary employer CAD, datasets or internal project reports.
-- Review coursework imagery for any academic sharing restrictions.
-
-**Included content:** Three academic case studies grounded in the reports supplied; six personal images; case-study figures and plots.
+- **Employer approval:** Confirm that the two GE Aerospace fixture photographs are approved for public display, even though detailed drawings/test data are excluded. If not approved, replace them with public-safe photos of a personal prototype before publishing.
+- Ask permission before posting identifiable colleagues / ProntoFlooring team photos on a public portfolio.
+- Industry visuals and captions should not imply that public stock images depict employer-specific work.
+- Confirm email and LinkedIn links still work after deployment.
