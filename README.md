@@ -1,4 +1,4 @@
-# Max Iglesias · Portfolio V6
+# Maximiliano Iglesias Borrego · Portfolio V6
 
 Updated existing GitHub Pages portfolio. Includes all V5 content, 3D-print case study photography, ProntoFlooring hands-on roots, and the working LinkedIn, MSU email, and favicon.
 
@@ -15,3 +15,6 @@ Updated existing GitHub Pages portfolio. Includes all V5 content, 3D-print case 
 - Ask permission before posting identifiable colleagues / ProntoFlooring team photos on a public portfolio.
 - Industry visuals and captions should not imply that public stock images depict employer-specific work.
 - Confirm email and LinkedIn links still work after deployment.
+
+## V9: PCB fixture imagery
+Two AI-generated concept images replace the original fixture photographs. They are illustrative, not documentary records of GE Aerospace designs or equipment. The original fixture image files are not included in this package. Delete the old files from your GitHub repository separately: `assets/fixture-printing.jpg` and `assets/fixture-finished.jpg`.
